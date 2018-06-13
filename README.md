@@ -4,12 +4,18 @@ Standard Form Builder eslint config.
 
 Based on Standard JS.
 
+## Install
+
+```
+npm install @ministryofjustice/eslint-config-fb --save-dev
+```
+
 ## Usage
 
 Example `.eslintrc` file
 
 ```
 {
-  "extends": "fb"
+  "extends": "@ministryofjustice/eslint-config-fb"
 }
 ```
