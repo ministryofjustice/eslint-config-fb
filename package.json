@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/eslint-config-fb",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Default Form Builder eslint config",
   "main": "index.js",
   "scripts": {
