@@ -8,6 +8,7 @@ module.exports = {
   },
   plugins: [],
   rules: {
+    'require-atomic-updates': 0,
     'array-bracket-newline': ['error', 'consistent'],
     'array-bracket-spacing': ['error', 'never'],
     'no-extra-parens': ['error', 'all'],
