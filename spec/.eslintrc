@@ -1,6 +1,0 @@
-{
-  "extends": "../index.js",
-  "rules": {
-    "quotes": ["error", "single", { "allowTemplateLiterals": true }]
-  }
-}
