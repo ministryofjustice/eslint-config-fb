@@ -9,12 +9,6 @@ jobs:
       - run:
           name: Install
           command: npm install
-      - run:
-          name: Lints
-          command: npm run lint
-      - run:
-          name: Tests
-          command: npm run test
 
 workflows:
   commit-workflow:
