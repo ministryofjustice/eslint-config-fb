@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  lint_and_test:
+  publish:
     docker:
       - image: circleci/node:12.4.0
     steps:
@@ -9,8 +9,19 @@ jobs:
       - run:
           name: Install
           command: npm install
+      - run:
+          name: Authenticate with registry
+          command: echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" > ~/.npmrc
+      - run:
+          name: Publish package
+          command: npm publish
 
 workflows:
   commit-workflow:
     jobs:
-      - lint_and_test
+      - publish:
+          filters:
+            tags:
+              only: /^v.*/
+            branches:
+              only: master
