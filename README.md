@@ -7,7 +7,7 @@ The Form Builder ESLint configuration implements [Standard JS](https://standardj
 Install from NPM:
 
 ```
-npm install @ministryofjustice/eslint-config-fb --save-dev
+npm i -D @ministryofjustice/eslint-config-fb
 ```
 
 ## Usage
