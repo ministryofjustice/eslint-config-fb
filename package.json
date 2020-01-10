@@ -1,6 +1,6 @@
 {
   "name": "@ministryofjustice/eslint-config-fb",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "Form Builder ESLint configuration",
   "main": "./index.js",
   "author": "Form Builder Team <form-builder-team@digital.justice.gov.uk>",
